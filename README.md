@@ -9,7 +9,7 @@
 >| Gabriel Maciel de Aguiar Silva | 06006665 | gabriielmaciel17@gmail.com |
 >| Diego Eufrasio Martorana | 06006338 | diego18tere@gmail.com |
 
-- Apresentação: [Cinemaratona Entrega Final](https://youtu.be/url)
+- Apresentação: [Cinemaratona Entrega Final](https://youtu.be/HKGz7Ov-0q8)
 
 ## Tópico 1. Arquitetura Limpa (Pastas/Namespaces)
 **É possível identificar pastas ou namespaces que separam apresentação, domínio e infraestrutura, evidenciando uma arquitetura limpa?**
