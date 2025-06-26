@@ -1,6 +1,6 @@
 [submodule "cinemaratona-backend"]
 	path = cinemaratona-backend
 	url = https://github.com/Danielcmc100/cinemaratona-backend
-[submodule "cinemaratona"]
+[submodule "cinemaratona-frontend"]
 	path = cinemaratona-frontend
 	url = https://github.com/hugonorte/cinemaratona
