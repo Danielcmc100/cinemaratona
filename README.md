@@ -473,3 +473,33 @@ public User? Include(User user)
 ```
 Essas validações adicionais no nível do serviço garantem que os dados estejam em um formato e complexidade aceitáveis antes de serem processados ou persistidos. Para prevenção de XSS, embora a sanitização seja geralmente feita no frontend, é uma boa prática também validar e, se necessário, sanitizar entradas de texto livre (como descrições de eventos ou opiniões de reviews) no backend antes de armazená-las, especialmente se esses dados forem exibidos diretamente em páginas web sem escape adequado. Bibliotecas de sanitização de HTML podem ser utilizadas para isso.
 
+
+
+## 10. Componentes que seguem princípios de consistência e feedback visual.
+No front-end do site, foi utilizado o princípio da **componentização**, tanto para aumentar a eficiência no desenvolvimento, mas para manter a consistência visual.
+
+Essa consistência pode ser notada nas fontes, nos tamanhos dos compoenentes visuais, nas cores, nos botões, nos epaçamentos, etc.
+
+O exemplo principal de consistência pode ser notado no componente "Base Layout", que tem em seu interior diversos elementos que se repetirão em praticamente todo o site.
+
+**Arquivo:** [Componente BaseLayout]('https://github.com/hugonorte/cinemaratona/blob/df8a29b79d00a539c3b47f113936676eaa27dc81/src/components/layout/index.tsx')
+
+```js
+function BaseLayout({ children }: BaseLayoutProps) {
+  const location  = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }
+  , [location.pathname])
+
+  return (
+    <div className={style.header_container}>
+        <Header />
+        <div className={style.container}>
+          {children}
+        </div>
+        <Footer />
+    </div>
+  )
+}
+```
