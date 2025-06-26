@@ -1,13 +1,13 @@
 # CineMaratona
 
 >[!NOTE]
-| Nome | Matrícula | Email |
-|------|-----------|-------|
-| Kleber Daniel Mattos Viana | 06007199 | danielcmc100@gmail.com |
-| Bernard Abreu Machado | 06006244 | benydepaull@hotmail.com |
-| Hugo Norte | 06006259 | hugonorte@gmail.com |
-| Gabriel Maciel de Aguiar Silva | 06006665 | gabriielmaciel17@gmail.com |
-| Diego Eufrasio Martorana | 06006338 | diego18tere@gmail.com |
+>| Nome | Matrícula | Email |
+>|------|-----------|-------|
+>| Kleber Daniel Mattos Viana | 06007199 | danielcmc100@gmail.com |
+>| Bernard Abreu Machado | 06006244 | benydepaull@hotmail.com |
+>| Hugo Norte | 06006259 | hugonorte@gmail.com |
+>| Gabriel Maciel de Aguiar Silva | 06006665 | gabriielmaciel17@gmail.com |
+>| Diego Eufrasio Martorana | 06006338 | diego18tere@gmail.com |
 
 - Apresentação: [Cinemaratona Entrega Final](https://youtu.be/url)
 
