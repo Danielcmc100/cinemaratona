@@ -504,23 +504,23 @@ function BaseLayout({ children }: BaseLayoutProps) {
 }
 ```
 
-# CORREÇÃO
+# Correcao
 
-| Item | Situação | Pontos |
+| Item | Situacao | Pontos |
 |------|----------|--------|
-| 1. Readme com nomes completos | Aprovado | 1 |
-| 2. Código-fonte completo | Aprovado | 1 |
-| 3. Vídeo referenciado no Readme | Aprovado | 1 |
-| 4. Organização em camadas | Aprovado | 1 |
-| 5. Padrões de projeto | Aprovado | 1 |
-| 6. Princípios SOLID | Aprovado | 1 |
-| 7. Convenções de nomenclatura | Aprovado | 1 |
-| 8. Documentação de código | Aprovado | 1 |
-| 9. Testes automatizados | Aprovado | 1 |
-| 10. Heurísticas de usabilidade | Aprovado | 1 |
+| 1. Organizacao em camadas | Aprovado | 1 |
+| 2. Aplicacao de padroes de projeto | Aprovado | 1 |
+| 3. Principios SOLID em pratica | Aprovado | 1 |
+| 4. Convencoes de nomenclatura claras | Aprovado | 1 |
+| 5. Documentacao minima de codigo | Aprovado | 1 |
+| 6. Testes automatizados | Aprovado | 1 |
+| 7. Refatoracoes evidentes | Aprovado | 1 |
+| 8. Tratamento de erros e excecoes | Aprovado | 1 |
+| 9. Exemplos de validacao de entrada | Aprovado | 1 |
+| 10. Heuristicas de usabilidade no frontend | Aprovado | 1 |
 
 **Total 10 / 10**
 
 ## Dicas extras
 
-Prefira deixar o `try/catch` na borda do backend, nos controllers apenas; nunca em serviços, repositórios, helpers e afins. Melhor ainda, crie um middleware para tratar todos os erros da aplicação.
+Prefira manter o `try/catch` somente nos controllers, na borda entre backend e frontend. Um middleware global de tratamento de erros deixa o fluxo ainda mais limpo e centralizado.
