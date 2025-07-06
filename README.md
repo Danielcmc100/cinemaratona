@@ -503,3 +503,24 @@ function BaseLayout({ children }: BaseLayoutProps) {
   )
 }
 ```
+
+# CORREÇÃO
+
+| Item | Situação | Pontos |
+|------|----------|--------|
+| 1. Readme com nomes completos | Aprovado | 1 |
+| 2. Código-fonte completo | Aprovado | 1 |
+| 3. Vídeo referenciado no Readme | Aprovado | 1 |
+| 4. Organização em camadas | Aprovado | 1 |
+| 5. Padrões de projeto | Aprovado | 1 |
+| 6. Princípios SOLID | Aprovado | 1 |
+| 7. Convenções de nomenclatura | Aprovado | 1 |
+| 8. Documentação de código | Aprovado | 1 |
+| 9. Testes automatizados | Aprovado | 1 |
+| 10. Heurísticas de usabilidade | Aprovado | 1 |
+
+**Total 10 / 10**
+
+## Dicas extras
+
+Prefira deixar o `try/catch` na borda do backend, nos controllers apenas; nunca em serviços, repositórios, helpers e afins. Melhor ainda, crie um middleware para tratar todos os erros da aplicação.
